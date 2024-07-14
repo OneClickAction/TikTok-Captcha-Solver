@@ -45,3 +45,11 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
 - Selenium
 - ocacaptcha
 - Requests
+
+
+## Contact
+For any questions or issues, please contact:
+
+- Your Name
+- Email: your_email@example.com
+- GitHub: [yourusername](https://github.com/OneClickAction)
