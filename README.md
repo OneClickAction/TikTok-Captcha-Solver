@@ -15,3 +15,9 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
 - A valid API key for `ocacaptcha`
 
 ## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/tiktok-automation.git
+   cd tiktok-automation
+2. Install the required Python packages:
+  pip install selenium ocacaptcha requests
