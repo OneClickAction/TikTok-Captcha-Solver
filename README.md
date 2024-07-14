@@ -51,7 +51,7 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
 For any questions or issues, please contact:
 
 - OCA admin
-- Email: your_email@example.com
+- Email: oneclickactionsoft@gmail.com
 - GitHub: [OneClickAction](https://github.com/OneClickAction)
 - Telegram [OneClickAction](https://t.me/+70DIlIc543U4NGQy)
 - Discord [OneClickAction](https://discord.com/invite/YyDx3SJNCh)
