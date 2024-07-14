@@ -19,13 +19,18 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
    ```bash
    git clone https://github.com/yourusername/tiktok-automation.git
    cd tiktok-automation
+   
 2. Install the required Python packages:
    ```bash
    pip install selenium ocacaptcha requests
+   
 3. Download and install ChromeDriver compatible with your version of Chrome, and place it in your desired directory.
 
 ## Usage
+1. Update the script with your own login credentials and API key:
    ```
    my_email = "your_email@example.com"
    my_password = "your_password"
    user_api_key = "your_ocacaptcha_api_key"
+
+1. Update the script with your own login credentials and API key:
