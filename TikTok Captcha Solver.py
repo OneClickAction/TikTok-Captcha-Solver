@@ -45,7 +45,7 @@ if is_exists_cookies_button.is_displayed():
 
 # Write login login data
 email_input = driver.find_element(By.XPATH, '//input[@name="username"]')
-my_email = "your_email@example.com"
+my_email = "your_username"
 for char in my_email:
     actions.move_to_element(email_input).click().send_keys(char).perform()
     time.sleep(random.uniform(0.00001,0.00005))
