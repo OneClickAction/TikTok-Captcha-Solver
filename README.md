@@ -10,7 +10,7 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
 
 ## Prerequisites
 
-- Python 3.x
+- Python >= 3.11
 - ChromeDriver
 - A valid API key for `ocacaptcha`
 
