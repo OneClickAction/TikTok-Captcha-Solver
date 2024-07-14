@@ -52,6 +52,6 @@ For any questions or issues, please contact:
 
 - OCA admin
 - Email: oneclickactionsoft@gmail.com
-- GitHub: [OneClickAction](https://github.com/OneClickAction)
-- Telegram [OneClickAction](https://t.me/+70DIlIc543U4NGQy)
-- Discord [OneClickAction](https://discord.com/invite/YyDx3SJNCh)
+- GitHub: [One Click Action](https://github.com/OneClickAction)
+- Telegram [One Click Action](https://t.me/+70DIlIc543U4NGQy)
+- Discord [One Click Action](https://discord.com/invite/YyDx3SJNCh)
