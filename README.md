@@ -17,7 +17,7 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/OneClickAction/tiktok-automation.git
+   git clone https://github.com/OneClickAction/TikTok-Captcha-Solver.git
    cd tiktok-automation
    
 2. Install the required Python packages:
