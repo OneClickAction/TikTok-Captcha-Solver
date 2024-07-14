@@ -28,7 +28,7 @@ options.add_argument("--accept-lang=en-US,en;q=0.5")
 options.add_argument("--dom-automation=disabled")
 
 
-service = Service(executable_path='D:\\Python\\My library test\\webdriver\\chromedriver.exe')
+service = Service(executable_path='C:\\Python\\webdriver\\chromedriver.exe')
 driver = webdriver.Chrome(service=service, options=options)
 actions = ActionChains(driver, duration=550)
 
