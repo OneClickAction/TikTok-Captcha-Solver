@@ -52,4 +52,4 @@ For any questions or issues, please contact:
 
 - OCA admin
 - Email: your_email@example.com
-- GitHub: [yourusername](https://github.com/OneClickAction)
+- GitHub: [OneClickAction](https://github.com/OneClickAction)
