@@ -41,3 +41,7 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
    ```
    python tiktok_automation.py
 
+## Dependencies
+• Selenium
+- ocacaptcha
+- Requests
