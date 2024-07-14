@@ -33,4 +33,11 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
    my_password = "your_password"
    user_api_key = "your_ocacaptcha_api_key"
 
-1. Update the script with your own login credentials and API key:
+2. Update the ChromeDriver path:
+   ```
+   service = Service(executable_path='/path/to/your/chromedriver')
+   
+3. Update the ChromeDriver path:
+   ```
+   python tiktok_automation.py
+
