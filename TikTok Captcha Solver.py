@@ -45,14 +45,14 @@ if is_exists_cookies_button.is_displayed():
 
 # Write login login data
 email_input = driver.find_element(By.XPATH, '//input[@name="username"]')
-my_email = "nike"
+my_email = "your_email@example.com"
 for char in my_email:
     actions.move_to_element(email_input).click().send_keys(char).perform()
     time.sleep(random.uniform(0.00001,0.00005))
 time.sleep(random.uniform(2, 5))
 
 password_input = driver.find_element(By.XPATH, '//input[@type="password"]')
-my_password = "DAh32ffs$Dofd"
+my_password = "your_password"
 for char in my_password:
     actions.move_to_element(password_input).click().send_keys(char).perform()
     time.sleep(random.uniform(0.000001,0.000005))
