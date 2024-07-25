@@ -37,9 +37,6 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
    ```
    service = Service(executable_path='/path/to/your/chromedriver')
    
-3. Update the ChromeDriver path:
-   ```
-   python tiktok_automation.py
 
 ## Dependencies
 - Selenium
