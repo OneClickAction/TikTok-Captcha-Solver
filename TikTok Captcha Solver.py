@@ -60,12 +60,12 @@ time.sleep(random.uniform(2, 3))
 login_btn = driver.find_element(By.XPATH, '//button[contains(@data-e2e,"login-button")]').click()
 time.sleep(random.uniform(8, 10))
 
-##### Solving capthca
+##### Solving captcha
 user_api_key = "YOUR_API_KEY"
 number_captcha_attempts = 10
 action_type = 'tiktokcircle'
 oca_solve_captcha(driver, actions, user_api_key, action_type, number_captcha_attempts)
-##### Solving capthca
+##### Solving captcha
 
 #Check too many attempts message
 is_exist_many_attemps = driver.find_elements("xpath", '//div[contains(@type,"error")]')
