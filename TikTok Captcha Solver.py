@@ -61,7 +61,7 @@ login_btn = driver.find_element(By.XPATH, '//button[contains(@data-e2e,"login-bu
 time.sleep(random.uniform(8, 10))
 
 ##### Solving captcha
-user_api_key = "YOUR_API_KEY"
+user_api_key = "YOUR_API_KEY_HERE"
 number_captcha_attempts = 10
 action_type = 'tiktokcircle'
 oca_solve_captcha(driver, actions, user_api_key, action_type, number_captcha_attempts)
