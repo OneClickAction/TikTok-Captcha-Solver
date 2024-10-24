@@ -26,6 +26,7 @@ options.add_experimental_option('useAutomationExtension', False)
 options.add_argument("start-maximized")
 options.add_argument("--accept-lang=en-US,en;q=0.5")
 options.add_argument("--dom-automation=disabled")
+options.add_argument("--ignore-certificate-errors")
 
 
 service = Service(executable_path='C:\\Python\\webdriver\\chromedriver.exe')
