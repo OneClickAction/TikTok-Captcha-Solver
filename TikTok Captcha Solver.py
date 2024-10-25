@@ -13,7 +13,10 @@ import base64
 import os
 import random
 import string
+import ssl
+import certifi
 
+ssl._create_default_https_context = ssl._create_unverified_context
 
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
