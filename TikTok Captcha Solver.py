@@ -42,7 +42,6 @@ time.sleep(random.uniform(8, 12))
 
 # Check cookies banner
 shadow_root = driver.execute_script("return document.querySelector('body > tiktok-cookie-banner')?.shadowRoot")
-
 if shadow_root:
     buttons = shadow_root.find_elements(By.CSS_SELECTOR, "div > div.button-wrapper > button:nth-child(1)")
     if buttons:
