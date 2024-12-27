@@ -41,11 +41,16 @@ driver.get("https://www.tiktok.com/login/phone-or-email/email")
 time.sleep(random.uniform(8, 12))
 
 # Check cookies banner
-is_exists_cookies = driver.find_element(By.CSS_SELECTOR, "body > tiktok-cookie-banner").shadow_root
-is_exists_cookies_button = is_exists_cookies.find_element(By.CSS_SELECTOR, "div > div.button-wrapper > button:nth-child(1)")
-if is_exists_cookies_button.is_displayed():
-    is_exists_cookies_button.click()
-    time.sleep(random.uniform(2, 5))
+shadow_root = driver.execute_script("return document.querySelector('body > tiktok-cookie-banner')?.shadowRoot")
+
+if shadow_root:
+    # Проверяем наличие кнопки
+    buttons = shadow_root.find_elements(By.CSS_SELECTOR, "div > div.button-wrapper > button:nth-child(1)")
+    if buttons:  # Если список не пустой, кнопка найдена
+        is_exists_cookies_button = buttons[0]
+        if is_exists_cookies_button.is_displayed():
+            is_exists_cookies_button.click()
+            time.sleep(random.uniform(2, 5))
 
 # Write login login data
 email_input = driver.find_element(By.XPATH, '//input[@name="username"]')
