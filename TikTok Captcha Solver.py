@@ -44,9 +44,8 @@ time.sleep(random.uniform(8, 12))
 shadow_root = driver.execute_script("return document.querySelector('body > tiktok-cookie-banner')?.shadowRoot")
 
 if shadow_root:
-    # Проверяем наличие кнопки
     buttons = shadow_root.find_elements(By.CSS_SELECTOR, "div > div.button-wrapper > button:nth-child(1)")
-    if buttons:  # Если список не пустой, кнопка найдена
+    if buttons:
         is_exists_cookies_button = buttons[0]
         if is_exists_cookies_button.is_displayed():
             is_exists_cookies_button.click()
