@@ -70,8 +70,9 @@ time.sleep(random.uniform(8, 10))
 ##### Solving captcha
 user_api_key = "YOUR_API_KEY_HERE"
 number_captcha_attempts = 10
+wait_captcha_seconds = 60
 action_type = 'tiktokCircle'
-oca_solve_captcha(driver, actions, user_api_key, action_type, number_captcha_attempts)
+oca_solve_captcha(driver, user_api_key, action_type, number_captcha_attempts, wait_captcha_seconds)
 ##### Solving captcha
 
 #Check too many attempts message
