@@ -65,7 +65,6 @@ for char in my_password:
     time.sleep(random.uniform(0.000001,0.000005))
 time.sleep(random.uniform(2, 3))
 login_btn = driver.find_element(By.XPATH, '//button[contains(@data-e2e,"login-button")]').click()
-time.sleep(random.uniform(8, 10))
 
 ##### Solving captcha
 user_api_key = "YOUR_API_KEY_HERE"
