@@ -71,7 +71,7 @@ user_api_key = "YOUR_API_KEY_HERE"
 number_captcha_attempts = 10
 wait_captcha_seconds = 60
 solve_captcha_speed = 'Normal' #Speed modes: Slow, Normal, Medium, Fast, Very Fast, Super Fast
-action_type = 'tiktokCircle'
+action_type = 'tiktokWhirl'
 oca_solve_captcha(driver, user_api_key, action_type, number_captcha_attempts, wait_captcha_seconds, solve_captcha_speed)
 ##### Solving captcha
 
