@@ -36,7 +36,16 @@ This project automates the login process on TikTok using Selenium WebDriver. It 
 2. Update the ChromeDriver path:
    ```
    service = Service(executable_path='/path/to/your/chromedriver')
-   
+
+## Obtaining an API key
+
+To get an API key, follow the steps below in the [Telegram bot](https://t.me/OneClickActionBot):
+
+1. Open the bot and send the `/start` command.  
+2. Select the **English** or **Russian** language.  
+3. Go to the **Another services** or **Другие услуги** menu.  
+4. Select **Captcha** or **Капча** and get your API key.  
+
 
 ## Dependencies
 - Selenium
