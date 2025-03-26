@@ -17,7 +17,6 @@ import ssl
 import certifi
 
 ssl._create_default_https_context = ssl._create_unverified_context
-
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-infobars')
@@ -36,7 +35,7 @@ service = Service(executable_path='C:\\Python\\webdriver\\chromedriver.exe')
 driver = webdriver.Chrome(service=service, options=options)
 actions = ActionChains(driver, duration=550)
 
-# Upload website link
+# Upload website
 driver.get("https://www.tiktok.com/login/phone-or-email/email")
 time.sleep(random.uniform(8, 12))
 
@@ -50,16 +49,16 @@ if shadow_root:
             is_exists_cookies_button.click()
             time.sleep(random.uniform(2, 5))
 
-# Write login login data
+# Write login data
 email_input = driver.find_element(By.XPATH, '//input[@name="username"]')
-my_email = "your_username"
+my_email = "YOUR_USERNAME_OR_EMAIL_HERE"
 for char in my_email:
     actions.move_to_element(email_input).click().send_keys(char).perform()
     time.sleep(random.uniform(0.00001,0.00005))
 time.sleep(random.uniform(2, 5))
 
 password_input = driver.find_element(By.XPATH, '//input[@type="password"]')
-my_password = "your_password"
+my_password = "YOUR_PASSWORD_HERE"
 for char in my_password:
     actions.move_to_element(password_input).click().send_keys(char).perform()
     time.sleep(random.uniform(0.000001,0.000005))
