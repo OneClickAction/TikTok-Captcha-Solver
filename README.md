@@ -57,7 +57,7 @@ To get an API key, follow the steps below in the [Telegram bot](https://t.me/One
 For any questions or issues, please contact:
 
 - OCA admin
-- Email: oneclickactionsoft@gmail.com
+- Email: oneclickactionsoft@gmail.com (for business purposes only, spam will be ignored)
 - GitHub: [One Click Action](https://github.com/OneClickAction)
 - Telegram [One Click Action](https://t.me/+70DIlIc543U4NGQy)
 - Discord [One Click Action](https://discord.com/invite/YyDx3SJNCh)
