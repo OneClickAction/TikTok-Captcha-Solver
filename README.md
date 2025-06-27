@@ -45,7 +45,7 @@ To get an API key, follow the steps below in the [Telegram bot](https://t.me/One
 2. Select the **English** or **Russian** language.  
 3. Go to the **Another services** or **Другие услуги** menu.  
 4. Select **Captcha** or **Капча** and get your API key.
-5. Copy your **API key from the bot** and paste it into the code. Make sure you have enough solutuions in your account  
+5. Copy your **API key from the bot** and paste it into the code. Make sure you have enough solutions in your account  
 
 
 ## Dependencies
