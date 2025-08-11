@@ -1,5 +1,5 @@
 # TikTok Captcha Solver
-This project automates the login process on TikTok using Selenium WebDriver. It also includes functionality to handle captchas using the `ocacaptcha` library.
+This project automates the login process on TikTok using Selenium or Playwright. It also includes functionality to handle captchas using the `ocacaptcha` library.
 
 ## Features
 
