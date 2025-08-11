@@ -12,30 +12,50 @@ This project automates the login process on TikTok using Selenium or Playwright.
 
 - Python >= 3.13.1
 - ChromeDriver
+- Playwright
 - A valid API key for `ocacaptcha`
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/OneClickAction/TikTok-Captcha-Solver.git
-   cd TikTok-Captcha-Solver
-   
-2. Install the required Python packages:
-   ```bash
-   pip install selenium playwright ocacaptcha
-   
-3. Download and install [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) compatible with your version of Chrome, and place it in your desired directory.
+## If you are using Selenium
+   1. Clone the repository:
+      ```bash
+      git clone https://github.com/OneClickAction/TikTok Captcha Solver (login with Selenium).git
+      cd TikTok Captcha Solver (login with Selenium)
+      
+   2. Install the required Python packages:
+      ```bash
+      pip install selenium ocacaptcha
+      
+   3. Download and install [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) compatible with your version of Chrome, and place it in your desired directory.
+
+## If you are using Playwright
+   1. Clone the repository:
+      ```bash
+      git clone https://github.com/OneClickAction/TikTok Captcha Solver (login with Playwright).git
+      cd TikTok Captcha Solver (login with Playwright)
+      
+   2. Install the required Python packages:
+      ```bash
+      pip install playwright ocacaptcha
 
 ## Usage
-1. Update the script with your own login credentials and API key:
-   ```
-   my_email = "your_email@example.com"
-   my_password = "your_password"
-   user_api_key = "your_ocacaptcha_api_key"
+## If you are using Selenium
+   1. Update the script with your own login credentials and API key:
+      ```
+      my_email = "your_email@example.com"
+      my_password = "your_password"
+      user_api_key = "your_ocacaptcha_api_key"
+   
+   2. Update the ChromeDriver path:
+      ```
+      service = Service(executable_path='/path/to/your/chromedriver')
 
-2. Update the ChromeDriver path:
-   ```
-   service = Service(executable_path='/path/to/your/chromedriver')
+## If you are using Playwright
+   1. Update the script with your own login credentials and API key:
+      ```
+      my_email = "your_email@example.com"
+      my_password = "your_password"
+      user_api_key = "your_ocacaptcha_api_key"
 
 ## Obtaining OCA API key
 
