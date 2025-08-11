@@ -69,7 +69,7 @@ login_btn = driver.find_element(By.XPATH, '//button[contains(@data-e2e,"login-bu
 user_api_key = "YOUR_API_KEY_HERE"
 number_captcha_attempts = 10
 wait_captcha_seconds = 60
-solve_captcha_speed = 'Normal' #Speed modes: Slow, Normal, Medium, Fast, Very Fast, Super Fast
+solve_captcha_speed = 'Normal'  # Speed modes: Slow, Normal, Medium, Fast, Very Fast, Super Fast, Random
 action_type = 'tiktokWhirl'
 oca_solve_captcha(driver, user_api_key, action_type, number_captcha_attempts, wait_captcha_seconds, solve_captcha_speed)
 ##### Solving captcha
@@ -82,3 +82,4 @@ time.sleep(random.uniform(15, 30))
 
 # Close the service
 driver.quit()
+
