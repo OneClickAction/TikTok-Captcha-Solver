@@ -22,7 +22,7 @@ This project automates the login process on TikTok using Selenium or Playwright.
    
 2. Install the required Python packages:
    ```bash
-   pip install selenium ocacaptcha
+   pip install selenium playwright ocacaptcha
    
 3. Download and install [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) compatible with your version of Chrome, and place it in your desired directory.
 
@@ -49,7 +49,8 @@ To get an API key, follow the steps below in the [Telegram bot](https://t.me/One
 
 
 ## Dependencies
-- Selenium or Playwright
+- Selenium
+- Playwright
 - ocacaptcha
 
 
