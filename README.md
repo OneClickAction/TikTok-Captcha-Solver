@@ -16,7 +16,7 @@ This project automates the login process on TikTok using Selenium or Playwright.
 - A valid API key for `ocacaptcha`
 
 ## Installation
-## If you are using Selenium
+ **If you are using Selenium**
    1. Clone the repository:
       ```bash
       git clone https://github.com/OneClickAction/TikTok Captcha Solver (login with Selenium).git
@@ -28,7 +28,7 @@ This project automates the login process on TikTok using Selenium or Playwright.
       
    3. Download and install [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) compatible with your version of Chrome, and place it in your desired directory.
 
-## If you are using Playwright
+**If you are using Playwright**
    1. Clone the repository:
       ```bash
       git clone https://github.com/OneClickAction/TikTok Captcha Solver (login with Playwright).git
@@ -39,7 +39,7 @@ This project automates the login process on TikTok using Selenium or Playwright.
       pip install playwright ocacaptcha
 
 ## Usage
-## If you are using Selenium
+**If you are using Selenium**
    1. Update the script with your own login credentials and API key:
       ```
       my_email = "your_email@example.com"
@@ -50,7 +50,7 @@ This project automates the login process on TikTok using Selenium or Playwright.
       ```
       service = Service(executable_path='/path/to/your/chromedriver')
 
-## If you are using Playwright
+**If you are using Playwright**
    1. Update the script with your own login credentials and API key:
       ```
       my_email = "your_email@example.com"
