@@ -49,7 +49,7 @@ To get an API key, follow the steps below in the [Telegram bot](https://t.me/One
 
 
 ## Dependencies
-- Selenium
+- Selenium or Playwright
 - ocacaptcha
 
 
