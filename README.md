@@ -110,7 +110,7 @@ For support or business inquiries:
 - **GitHub**: [One Click Action](https://github.com/OneClickAction)
 - **Telegram**: [One Click Action](https://t.me/+70DIlIc543U4NGQy)
 - **Discord**: [One Click Action](https://discord.com/invite/YyDx3SJNCh)
-- **YouTube**: [OCA Soft](https://www.youtube.com/@ocasoft)
+- **YouTube**: [One Click Action](https://www.youtube.com/@ocasoft)
 
 ---
 
