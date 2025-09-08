@@ -1,89 +1,117 @@
-# TikTok Captcha Solver
-This project automates the login process on TikTok using Selenium or Playwright. It also includes functionality to handle captchas using the `ocacaptcha` library.
+# 🚀 TikTok Captcha Solver
 
-## Features
+[![Python](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
+[![Selenium](https://img.shields.io/badge/selenium-supported-brightgreen.svg)](https://www.selenium.dev/)
+[![Playwright](https://img.shields.io/badge/playwright-supported-orange.svg)](https://playwright.dev/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/OneClickAction?style=social)](https://github.com/OneClickAction)
 
-- Automated login to TikTok
-- Handling of cookies banner
-- Automatic filling of login credentials
-- Solving captchas using `oca_solve_captcha` function from `ocacaptcha` library
+> 🔓 Automate TikTok login and bypass captchas using **Selenium** or **Playwright** + [OCA Captcha](https://t.me/OneClickActionBot)
 
-## Prerequisites
+---
 
-- Python >= 3.13.1
-- ChromeDriver
-- Playwright
-- A valid API key for `ocacaptcha`
+## ✨ Features
 
-## Installation
+- ✅ Automatic TikTok login
+- ✅ Support for **Selenium** and **Playwright**
+- ✅ Auto-filling of login credentials
+- ✅ Captcha solving via `oca_solve_captcha`
+- ✅ Easy integration with [OCA Captcha API](https://t.me/OneClickActionBot)
 
-**If you are using Selenium**
-1. Clone the repository:
-	 ```bash
-	 git clone https://github.com/OneClickAction/TikTok Captcha Solver (login with Selenium).git
-	 cd TikTok Captcha Solver (login with Selenium)
-	 
-2. Install the required Python packages:
-	 ```bash
-	 pip install selenium ocacaptcha
-	 
-3. Download and install [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) compatible with your version of Chrome, and place it in your desired directory.
+---
 
-**If you are using Playwright**
-1. Clone the repository:
-	 ```bash
-	 git clone https://github.com/OneClickAction/TikTok Captcha Solver (login with Playwright).git
-	 cd TikTok Captcha Solver (login with Playwright)
-	 
-2. Install the required Python packages:
-	 ```bash
-	 pip install playwright ocacaptcha
-	 
+## ⚡ Requirements
 
-## Usage
+- Python **3.13.1+**  
+- [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) (only for Selenium)  
+- Selenium (for `TikTok Captcha Solver with Selenium.py`)  
+- Playwright (for `TikTok Captcha Solver with Playwright.py`)  
+- 🔑 API key for **ocacaptcha**  
 
-**If you are using Selenium**
-1. Update the script with your own login credentials and API key:
-	 ```
-	 my_email = "your_email@example.com"
-	 my_password = "your_password"
-	 user_api_key = "your_ocacaptcha_api_key"
+---
 
-2. Update the ChromeDriver path:
-	 ```
-	 service = Service(executable_path='/path/to/your/chromedriver')
+## 📥 Installation
 
-	
-**If you are using Playwright**
-1. Update the script with your own login credentials and API key:
-	 ```
-	 my_email = "your_email@example.com"
-	 my_password = "your_password"
-	 user_api_key = "your_ocacaptcha_api_key"
+### 🔹 Option 1: Selenium
 
-## Obtaining OCA API key
+```bash
+git clone https://github.com/OneClickAction/TikTok-Captcha-Solver-Selenium.git
+cd TikTok-Captcha-Solver-Selenium
+pip install selenium ocacaptcha
+```
 
-To get an API key, follow the steps below in the [Telegram bot](https://t.me/OneClickActionBot):
+➡️ Download and install **ChromeDriver** compatible with your Chrome version
 
-1. Open the bot and send the `/start` command.  
-2. Select the **English** or **Russian** language.  
-3. Go to the **Another services** or **Другие услуги** menu.  
-4. Select **Captcha** or **Капча** and get your API key.
-5. Copy your **API key from the bot** and paste it into the code. Make sure you have enough solutions in your account  
+### 🔹 Option 2: Playwright
 
+```bash
+git clone https://github.com/OneClickAction/TikTok-Captcha-Solver-Playwright.git
+cd TikTok-Captcha-Solver-Playwright
+pip install playwright ocacaptcha
+```
 
-## Dependencies
-- Selenium
-- Playwright
-- ocacaptcha
+---
 
+## 🚀 Usage
 
-## Contact
-For any questions or issues, please contact:
+### 🔹 Selenium
 
-- OCA admin
-- Email: oneclickactionsoft@gmail.com (for business purposes only, spam will be ignored)
-- GitHub: [One Click Action](https://github.com/OneClickAction)
-- Telegram [One Click Action](https://t.me/+70DIlIc543U4NGQy)
-- Discord [One Click Action](https://discord.com/invite/YyDx3SJNCh)
-- YouTube [One Click Action](https://www.youtube.com/@ocasoft)
+1. Set your login credentials and API key:
+
+```python
+my_email = "YOUR_USERNAME_OR_EMAIL_HERE"
+my_password = "YOUR_PASSWORD_HERE"
+user_api_key = "YOUR_API_KEY_HERE"
+```
+
+2. Update the **ChromeDriver** path:
+
+```python
+service = Service(executable_path="/path/to/your/chromedriver")
+```
+
+### 🔹 Playwright
+
+1. Set your login credentials and API key:
+
+```python
+my_email = "YOUR_USERNAME_OR_EMAIL_HERE"
+my_password = "YOUR_PASSWORD_HERE"
+user_api_key = "YOUR_API_KEY_HERE"
+```
+
+---
+
+## 🔑 Getting Your OCA API Key
+
+1. Open the [Telegram bot](https://t.me/OneClickActionBot)
+2. Send the `/start` command
+3. Choose **English** or **Russian** language
+4. Go to **Another services** menu
+5. Select **Captcha** and get your API key
+6. Copy your **API key** and paste it into your script
+
+---
+
+## 📦 Dependencies
+
+- **Selenium**
+- **Playwright**
+- **ocacaptcha**
+
+---
+
+## 📞 Contact
+
+For support or business inquiries:
+
+- **Admin**: OCA Team
+- **Email**: oneclickactionsoft@gmail.com
+- **GitHub**: [One Click Action](https://github.com/OneClickAction)
+- **Telegram**: [One Click Action](https://t.me/+70DIlIc543U4NGQy)
+- **Discord**: [One Click Action](https://discord.com/invite/YyDx3SJNCh)
+- **YouTube**: [OCA Soft](https://www.youtube.com/@ocasoft)
+
+---
+
+💡 **Take action now:** Automate your TikTok login and let OCA Captcha handle the hard part 🔥
