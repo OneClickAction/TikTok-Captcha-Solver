@@ -5,6 +5,12 @@
 [![Playwright](https://img.shields.io/badge/playwright-supported-orange.svg)](https://playwright.dev/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/OneClickAction?style=social)](https://github.com/OneClickAction)
+![GitHub forks](https://img.shields.io/github/forks/OneClickAction/TikTok-Captcha-Solver?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/OneClickAction/TikTok-Captcha-Solver?style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/OneClickAction/TikTok-Captcha-Solver/total?color=brightgreen)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/OneClickAction/TikTok-Captcha-Solver?color=orange)
+![Profile views](https://komarev.com/ghpvc/?username=OneClickAction&repo=TikTok-Captcha-Solver&color=blue)
+
 
 > 🔓 Automate TikTok login and bypass captchas using **Selenium** or **Playwright** + [OCA Captcha](https://t.me/OneClickActionBot)
 
