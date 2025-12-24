@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
 [![Selenium](https://img.shields.io/badge/selenium-supported-brightgreen.svg)](https://www.selenium.dev/)
 [![Playwright](https://img.shields.io/badge/playwright-supported-orange.svg)](https://playwright.dev/)
+[![nodriver](https://img.shields.io/badge/nodriver-supported-blue.svg)](https://github.com/ultrafunkamsterdam/nodriver)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/OneClickAction?style=social)](https://github.com/OneClickAction)
 ![GitHub forks](https://img.shields.io/github/forks/OneClickAction/TikTok-Captcha-Solver?style=social)
@@ -12,14 +13,14 @@
 ![Profile views](https://komarev.com/ghpvc/?username=OneClickAction&repo=TikTok-Captcha-Solver&color=blue)
 
 
-> 🔓 Automate TikTok login and bypass captchas using **Selenium** or **Playwright** + [OCA Captcha](https://t.me/OneClickActionBot)
+> 🔓 Automate TikTok login and bypass captchas using **Selenium**, **Playwright** or **Nodriver** + [OCA Captcha](https://t.me/OneClickActionBot)
 
 ---
 
 ## ✨ Features
 
 - ✅ Automatic TikTok login
-- ✅ Support for **Selenium** and **Playwright**
+- ✅ Support for **Selenium**, **Playwright** and **Nodriver**
 - ✅ Auto-filling of login credentials
 - ✅ Captcha solving via `oca_solve_captcha`
 - ✅ Easy integration with [OCA Captcha API](https://t.me/OneClickActionBot)
