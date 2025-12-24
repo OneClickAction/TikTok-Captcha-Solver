@@ -104,6 +104,7 @@ user_api_key = "YOUR_API_KEY_HERE"
 
 - **Selenium**
 - **Playwright**
+- **Nodriver**
 - **ocacaptcha**
 
 ---
