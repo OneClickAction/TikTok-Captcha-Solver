@@ -32,7 +32,8 @@
 - Python **3.13.1+**  
 - [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) (only for Selenium)  
 - Selenium (for `TikTok Captcha Solver with Selenium.py`)  
-- Playwright (for `TikTok Captcha Solver with Playwright.py`)  
+- Playwright (for `TikTok Captcha Solver with Playwright.py`)
+- Nodriver (for `TikTok Captcha Solver with Nodriver.py`)  
 - 🔑 API key for **ocacaptcha**  
 
 ---
