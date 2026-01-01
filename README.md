@@ -42,8 +42,6 @@
 ### 🔹 Option 1: Selenium
 
 ```bash
-git clone https://github.com/OneClickAction/TikTok-Captcha-Solver-Selenium.git
-cd TikTok-Captcha-Solver-Selenium
 pip install selenium ocacaptcha
 ```
 
@@ -52,9 +50,13 @@ pip install selenium ocacaptcha
 ### 🔹 Option 2: Playwright
 
 ```bash
-git clone https://github.com/OneClickAction/TikTok-Captcha-Solver-Playwright.git
-cd TikTok-Captcha-Solver-Playwright
 pip install playwright ocacaptcha
+```
+
+### 🔹 Option 3: Nodriver
+
+```bash
+pip install nodriver ocacaptcha
 ```
 
 ---
@@ -84,6 +86,14 @@ service = Service(executable_path="/path/to/your/chromedriver")
 ```python
 my_email = "YOUR_USERNAME_OR_EMAIL_HERE"
 my_password = "YOUR_PASSWORD_HERE"
+user_api_key = "YOUR_API_KEY_HERE"
+```
+
+### 🔹 Nodriver
+
+1. Set your API key:
+
+```python
 user_api_key = "YOUR_API_KEY_HERE"
 ```
 
